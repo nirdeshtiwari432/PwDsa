@@ -1,0 +1,10 @@
+git branch              # List all branches
+git branch new-branch   # Create a new branch
+git checkout new-branch # Switch to the new branch
+git switch -c new-branch # Create & switch to new branch (shortcut)
+git add .               # Stage changes
+git commit -m "Message" # Commit changes
+git push -u origin new-branch # Push branch to GitHub
+git merge new-branch    # Merge with main
+git branch -d new-branch # Delete local branch
+git push origin --delete new-branch # Delete remote branch
